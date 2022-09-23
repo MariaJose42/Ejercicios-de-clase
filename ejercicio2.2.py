@@ -8,18 +8,22 @@
 
 edad= 0
 
-print ("Dime tu edad : ")
+print ("Dime la edad del niño: ")
 
 edad = int(input())
 
-if (6<=edad<=7) :
-    print("Eres benjamín")
+if (edad<6):
+    print("No tiene categoría")
+
+elif (6<=edad<=7) :
+    print("Es benjamín")
     
 elif (8<=edad<=9):
-    print("Eres alevín")
+    print("Es alevín")
     
 elif (10<=edad<=11):
-    print("Eres infantil")
+    print("Es infantil")
     
 else:
-    print("Eres cadete")
+    print("Es cadete")
+
