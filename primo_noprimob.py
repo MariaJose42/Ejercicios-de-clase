@@ -9,3 +9,14 @@ def esPrimo(num):
     
 num=int(input("Dime un número: "))
 print(esPrimo(num))
+
+'''
+Realizar un programa que nos diga los primos que se encuentran encuentran
+entre 1 y 1000
+'''
+
+def totalPrimosDe1a1000():
+    for i in range(1,1001):
+        if(esPrimo(i)):
+            print(i)
+            
