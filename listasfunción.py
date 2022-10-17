@@ -44,19 +44,14 @@ devuelva
    - False e.c.c.
 '''
 
-lst1=[1,2,3]
-lista_numeros()
-num=2
-random.randint(0,100)
-print(num)
-print(lst1)
+lst1=lista_numeros()
+#print(lst1)
+num=int (input("Dime un número: "))
 
 def busqueda_num(lst,num):
     for i in lst1:
         if(i==num):
             return True
-        else:
-            return False
-        
+    return False
+                    
 print(busqueda_num(lst1,num))
-      
